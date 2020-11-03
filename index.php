@@ -33,3 +33,4 @@ $pico = new Pico(
 
 // run application
 echo $pico->run();
+//test
