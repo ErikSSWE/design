@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/mff-logo.png
+Tagline: Eriks portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/ErikSSWE/design/releases
       icon: github
 ---

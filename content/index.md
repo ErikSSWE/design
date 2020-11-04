@@ -3,11 +3,12 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Eriks Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Välkommen till min sida. Jag heter Erik och är 20 år gammal, bor i Eslöv och gjort det hela mitt
+liv. På fritiden gillar jag att spela datorspel så som cod, lol, mm, (ser även fram emot cyberpunk)
+spelar jag inte umgås jag troligen med flickvännen eller vänner men spelar malmö kollar jag nog på 
+matchen. Min familj består av mamma pappa lillebror och hund.
 
-This is a sample home page written in markdown with some frontmatter defined.
-
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+![me](%assets_url%/img/erik.png)

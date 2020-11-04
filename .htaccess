@@ -35,4 +35,4 @@ RewriteRule (.*) index.php/$1 [NC,L]
 
 # Prevent file browsing
 Options -Indexes -MultiViews
-
+php_value memory_limit 256M
