@@ -1,0 +1,58 @@
+.auto {
+    margin: auto;
+    text-align: center;
+}
+
+.alert {
+    background-color: $base-color;
+    border: 1px solid $border-dark;
+    height: $alert-box-size/2;
+    width: $alert-box-size;
+}
+
+.social .fa {
+    font-size: 50px;
+}
+
+.logo img {
+    max-height: 5em;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.site-footer {
+    flex: 0 0 auto;
+    background: $base;
+    color: #2b2e30;
+    padding: 2em;
+    text-align: center;
+    letter-spacing: 2em;
+}
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $base;
+    color: #2b2e30;    
+}
+
+.site-header {
+    font-family: 'Goldman', cursive;
+}
+
+.container {
+    padding: 1em;
+    max-width: $container-max-width;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        padding: 0;
+        max-height: 4em;
+    }
+}
