@@ -481,3 +481,89 @@ body {
     max-height: 4em;
   }
 }
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.landingpage {
+  clear: both;
+  padding: 1em;
+  display: grid;
+  gap: 5em 5em;
+  box-shadow: 1px gray;
+}
+
+.overpart {
+  text-align: center;
+  background-color: gray;
+  color: #e1e1e1;
+  min-height: 5em;
+  box-shadow: 1px 1px 8px #999999a1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.subtext-box {
+  min-height: 20em;
+  box-shadow: 1px 1px 8px #999999a1;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.kmom-text {
+  text-align: center;
+}
+
+.subtext p {
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtext i {
+  font-size: xx-large;
+}
+
+@media (max-width: 767px) {
+  .kmom-box {
+    grid-column: span 3;
+  }
+
+  .landingpage {
+    gap: 1em 1em;
+  }
+
+  .sidemenu {
+    visibility: hidden;
+    display: none;
+  }
+}
+.report {
+  clear: both;
+  display: grid;
+  padding: 1em;
+}
+
+.sidemenu {
+  padding-left: 50px;
+  grid-column: span 2;
+  grid-area: 2;
+  padding: 5px;
+  align-self: stretch;
+  max-width: 115px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.redovisningstext-box {
+  padding: 1em;
+  grid-row: 1;
+  grid-area: 2;
+  text-align: center;
+}
