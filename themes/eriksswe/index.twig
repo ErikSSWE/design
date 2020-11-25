@@ -24,7 +24,7 @@
     <!-- End -->
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 </head>
-<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+<body{% if config.theme_config.widescreen %} class="widescreen" {% endif %} >
     <header class="site-header">
         <a id="nav-toggle" class="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
@@ -46,7 +46,7 @@
                     {% endfor %}
             </ul>
             <div class="flash-region">
-              <img class="flash-img" src="assets/img/banner.jpg">
+              <img class="flash-img img-filter" src="assets/img/banner.jpg">
             </div>
         </div>
     </header>

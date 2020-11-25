@@ -1,0 +1,36 @@
+.dark-style {
+    .site-header {
+        background-color: $dark-header-color;
+        color: #2b2e30;   
+    }
+
+    .site-footer {
+        background-color: $dark-footer-color;
+        opacity: $opacity;
+    }
+    
+    .main {
+        color: $dark-text-color;
+        background-color: $dark-body-color;
+    }
+    
+    .nav-main a:hover,
+    .nav-toggle:hover {
+        color: $dark-text-color;
+        text-decoration: underline;
+    }
+
+    .nav-main a {
+        text-decoration: none;
+        color: $dark-text-color;
+    }
+
+    .social {
+        color: $dark-text-color;
+    }
+
+    .social .fa {
+        color: $dark-text-color;
+    }
+
+}

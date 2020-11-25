@@ -4,3 +4,14 @@ $alert-box-size: 600px !default;
 $base: rgb(0, 255, 221) !default;
 $black: rgb(0, 0, 0);
 $container-max-width: 1024px;
+$header-color: #6a66cb;
+$footer-color: #51afbc;
+$color-nr3: #a258c5; //unused at the moment but a part of the tri color with the two above.
+$img-filter: grayscale(80%);
+
+$dark-header-color: rgba(0, 0, 0, 0.75);
+$dark-footer-color: rgba(0, 0, 0);
+$dark-body-color: rgb(0, 0, 0);
+$dark-text-color: rgb(196, 196, 196);
+$dark-fonts-color: rgb(255, 255, 255);
+$opacity: 0.75;

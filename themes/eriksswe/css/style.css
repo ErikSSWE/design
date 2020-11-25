@@ -422,6 +422,10 @@ template {
   .js .nav-toggle > * {
     vertical-align: middle;
   }
+
+  .flash-img {
+    max-width: 100vw;
+  }
 }
 .auto {
   margin: auto;
@@ -445,9 +449,13 @@ template {
   padding-left: 4em;
 }
 
+.img-filter {
+  filter: grayscale(80%);
+}
+
 .site-footer {
   flex: 0 0 auto;
-  background: #00ffdd;
+  background: #51afbc;
   color: #2b2e30;
   padding: 2em;
   text-align: center;
@@ -456,7 +464,7 @@ template {
 
 .site-header {
   flex: 0 0 auto;
-  background-color: #00ffdd;
+  background-color: #6a66cb;
   color: #2b2e30;
 }
 
@@ -566,4 +574,32 @@ body {
   grid-row: 1;
   grid-area: 2;
   text-align: center;
+}
+
+.dark-style .site-header {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #2b2e30;
+}
+.dark-style .site-footer {
+  background-color: black;
+  opacity: 0.75;
+}
+.dark-style .main {
+  color: #c4c4c4;
+  background-color: black;
+}
+.dark-style .nav-main a:hover,
+.dark-style .nav-toggle:hover {
+  color: #c4c4c4;
+  text-decoration: underline;
+}
+.dark-style .nav-main a {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+.dark-style .social {
+  color: #c4c4c4;
+}
+.dark-style .social .fa {
+  color: #c4c4c4;
 }

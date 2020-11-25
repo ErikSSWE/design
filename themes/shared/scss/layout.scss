@@ -20,9 +20,13 @@
     padding-left: 4em;
 }
 
+.img-filter {
+    filter: $img-filter;
+}
+
 .site-footer {
     flex: 0 0 auto;
-    background: $base;
+    background: $footer-color;
     color: #2b2e30;
     padding: 2em;
     text-align: center;
@@ -31,7 +35,7 @@
 
 .site-header {
     flex: 0 0 auto;
-    background-color: $base;
+    background-color: $header-color;
     color: #2b2e30;    
 }
 
