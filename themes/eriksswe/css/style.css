@@ -576,6 +576,65 @@ body {
   text-align: center;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.gallery.project {
+  grid-column: span 3;
+}
+
+.landingpage {
+  clear: both;
+  padding: 1em;
+  display: grid;
+  gap: 5em 5em;
+}
+
+.img-box {
+  min-height: 20em;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .img-box {
+    grid-column: span 3;
+  }
+
+  .landingpage {
+    gap: 1em 1em;
+  }
+
+  .sidemenu {
+    visibility: hidden;
+    display: none;
+  }
+}
 .dark-style .site-header {
   background-color: rgba(0, 0, 0, 0.75);
   color: #2b2e30;

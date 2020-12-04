@@ -1,0 +1,41 @@
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.gallery.project {
+    grid-column: span 3;
+}
+
+.landingpage {
+    clear: both;
+    padding: 1em;
+    display: grid;
+    gap: 5em 5em;
+}
+
+.img-box {
+    min-height: 20em;   
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .img-box {
+        grid-column: span 3;
+    }
+
+    .landingpage {
+        gap: 1em 1em;
+    }
+
+    .sidemenu {
+        visibility: hidden;
+        display: none;
+    }
+}
