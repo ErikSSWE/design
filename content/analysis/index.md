@@ -14,7 +14,7 @@ Redovisningssida för analyser
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om  colors</p>  
-                <a href="analysis/01_colors">
+                <a href="analysis/01_colors" aria-label="colors">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -27,7 +27,7 @@ Redovisningssida för analyser
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om Load</p>
-                <a href="analysis/02_load">
+                <a href="analysis/02_load" aria-label="Load">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -40,7 +40,7 @@ Redovisningssida för analyser
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om design principles</p>
-             <a href="analysis/03_design_principles">
+             <a href="analysis/03_design_principles" aria-label="Design principles">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>

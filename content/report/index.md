@@ -14,7 +14,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom01</p>  
-                <a href="report/kmom01">
+                <a href="report/kmom01" aria-label="kmom01">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -27,7 +27,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom02</p>
-                <a href="report/kmom02">
+                <a href="report/kmom02" aria-label="kmom02">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -40,7 +40,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom03</p>
-             <a href="report/kmom03">
+             <a href="report/kmom03" aria-label="kmom03">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -53,7 +53,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom04</p>
-             <a href="report/kmom04">
+             <a href="report/kmom04" aria-label="kmom04">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -66,7 +66,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom05</p>
-             <a href="report/kmom05">
+             <a href="report/kmom05" aria-label="kmom05">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -79,7 +79,7 @@ Redovisningssida för design
     <div class="subtext">
         <div class="subtext-box">
             <p>Här kan du läsa mer om kmom06</p>
-             <a href="report/kmom06">
+             <a href="report/kmom06" aria-label="kmom06">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>
@@ -92,7 +92,7 @@ Redovisningssida för design
     <div class="subtext-box">
         <div class="subtext">
             <p>Här kan du läsa mer om kmom10</p>
-             <a href="report/kmom10">
+             <a href="report/kmom10" aria-label="kmom10">
                     <i class="fa fa-arrow-circle-right"></i>
                 </a>
         </div>

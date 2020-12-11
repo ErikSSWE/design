@@ -362,6 +362,10 @@ template {
   padding-bottom: 5px;
 }
 
+.nav-main a {
+  color: black;
+}
+
 .nav-main ul {
   list-style: none;
   margin: 10px;
@@ -441,6 +445,7 @@ template {
 
 .social .fa {
   font-size: 50px;
+  color: black;
 }
 
 .logo img {
@@ -489,6 +494,10 @@ body {
     max-height: 4em;
   }
 }
+.nav-main a {
+  color: black;
+}
+
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
@@ -661,4 +670,13 @@ video {
 }
 .dark-style .social .fa {
   color: #c4c4c4;
+}
+.dark-style .container a {
+  color: orange;
+}
+.dark-style .container pre {
+  color: #00e1ff;
+}
+.dark-style .sidemenu a {
+  color: orange;
 }

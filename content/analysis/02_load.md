@@ -1,3 +1,9 @@
+---
+Title: Load
+Description: loading time
+Template: kmom
+---
+
 Loading time
 =======================
 
@@ -54,7 +60,7 @@ Ikea fick av google Pagespeed test ett resultat av 80 på desktop och på mobil 
 
 analys
 --------
-Det vanligaste förbättringsförslagt verkar vara att ta bort oanvänd kod i både css ocj js. Sen också fixa bildformaten.
+Det vanligaste förbättringsförslagt verkar vara att ta bort oanvänd kod i både css ocj js. Sen också fixa bildformaten. Med detta gjort skulle vissa hemsidor minskat i laddningstid vilket hade resulterat i trevligare upplevelse för användaren. Hur man ska ta bort oanvänd kod är jag inte rikigt bra på men med bilderna borde man tänka på vilket format man använder.
 
 <br>
 
