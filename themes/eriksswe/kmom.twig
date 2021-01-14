@@ -24,7 +24,7 @@
     <!-- End -->
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 </head>
-<body{% if config.theme_config.dark_theme %} class="dark-style"{% endif %}>
+<body{% if config.session.theme == "dark" %} class="dark-style" {% endif %}>
     <header class="site-header">
         <a id="nav-toggle" class="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
